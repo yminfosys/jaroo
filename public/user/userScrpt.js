@@ -594,7 +594,7 @@ function searchdown(){
     $.post('/user/createRefLink',{id:id},function(data){
 
 
-        var conte='https://moneyremid.com/user?refrootID='+data.rootID+'&refid='+data.userID+'&refname='+data.userName+'';
+        var conte='https://jaroo.in/user?refrootID='+data.rootID+'&refid='+data.userID+'&refname='+data.userName+'';
         console.log(conte);
         conte=encodeURI(conte);
 
