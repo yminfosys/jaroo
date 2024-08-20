@@ -7,6 +7,9 @@
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
+.pcolor{
+    color: rgb(18, 64, 104) !important;
+}
 
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
