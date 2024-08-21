@@ -5,7 +5,7 @@ const mongojs = require('mongojs');
 var dotenv=require('dotenv').config();
 
 
-const uri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/jaroo";
+const uri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/jarooteam";
 
 const connectDB = async () => {
   try {
