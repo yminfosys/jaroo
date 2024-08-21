@@ -10,7 +10,9 @@
 .pcolor{
     color: rgb(18, 64, 104) !important;
 }
-
+.lic a{
+    color: rgb(8, 9, 10) !important;
+}
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
