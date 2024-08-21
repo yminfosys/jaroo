@@ -347,14 +347,14 @@ function searchdown(){
         $("#mytree").css({"display":"none"});
         $("#other").css({"display":"none"});
 
-        $("#userContent").html(''+user.userName+'<br>ID: MR-'+user.userID+'')
+        $("#userContent").html(''+user.userName+'<br>ID: JGF-'+user.userID+'')
         $("#userProfile").html('<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-lg-offset-3 col-md-offset-3">\
                 <div class="thumbnail">\
                     <img data-src="#" alt="">\
                     <div class="caption">\
                         <h3>'+user.userName+'</h3>\
                         <p>\
-                           My SponsorID: MR-'+user.userID+'\
+                           My SponsorID: JGF-'+user.userID+'\
                            <hr>\
                         </p>\
                         <p>Mobile Number: '+user.mobile+'</p>\
@@ -522,7 +522,7 @@ function searchdown(){
                 cstClass= "list-group-item-info";
             }
             
-            $("#treeList").append('<li class="list-group-item '+cstClass+'">'+val.userName+'<br/>ID: MR-'+val.userID+'</li>')
+            $("#treeList").append('<li class="list-group-item '+cstClass+'">'+val.userName+'<br/>ID: JGF-'+val.userID+'</li>')
             
         });
         $("#treeList").append('<li style="" class="list-group-item"> \
